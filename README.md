@@ -2,6 +2,6 @@
 
 Hi, welcome!
 
-This page is under construction.
+<font color='red'>  This page is under construction. </font>
 
 In the mean time, check out my repos at https://github.com/gcfbelinario 
