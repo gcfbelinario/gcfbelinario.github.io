@@ -446,7 +446,7 @@ main {
 
 .contact-info .contact-link:hover {
   color: coral;
-  transition: color 0.2s ease-in;
+  transition: color 0.3s ease-in;
 }
 
 .contact-info address { font-style: normal; }

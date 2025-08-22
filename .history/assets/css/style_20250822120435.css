@@ -444,11 +444,6 @@ main {
   font-size: var(--fs-7);
 }
 
-.contact-info .contact-link:hover {
-  color: coral;
-  transition: color 0.2s ease-in;
-}
-
 .contact-info address { font-style: normal; }
 
 .social-list {
