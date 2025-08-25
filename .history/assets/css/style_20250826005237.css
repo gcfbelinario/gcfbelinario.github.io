@@ -1442,14 +1442,12 @@ textarea.form-input::-webkit-resizer { display: none; }
     height: 100%;
     object-fit: cover;
     transition: var(--transition-1);
-    border-radius: 10px;
+    border-radius: 16px;
   }
 
   .service-banner :hover {
     transform: scale(1.1);
   }
-
-  .service-banner-box { height: auto; }
 
 
 
