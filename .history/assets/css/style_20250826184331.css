@@ -136,6 +136,7 @@ img, ion-icon, button, time, span { display: block; }
 a {
   color:#00CED1 ;
   display: contents;
+  text-decoration: underline;
 }
 
 a:hover {
@@ -1065,26 +1066,23 @@ main {
   gap: 20px;
 }
 
-.blog-post-item {
+.blog-post-item > a {
   position: relative;
   background: var(--border-gradient-onyx);
   height: 100%;
-  box-shadow: var(--shadow-2);
+  box-shadow: var(--shadow-4);
   border-radius: 16px;
   z-index: 1;
-  display: block;
 }
 
-/*
 .blog-post-item > a::before {
   content: "";
   position: absolute;
   inset: 1px;
   border-radius: inherit;
-  background: var(--eerie-black-);
+  background: var(--eerie-black-1);
   z-index: -1;
 }
-*/
 
 .blog-banner-box {
   width: 100%;
@@ -1100,7 +1098,7 @@ main {
   transition: var(--transition-1);
 }
 
-.blog-post-item > :hover .blog-banner-box img { transform: scale(1.1); }
+.blog-post-item > a:hover .blog-banner-box img { transform: scale(1.1); }
 
 .blog-content { padding: 15px; }
 
@@ -1131,7 +1129,7 @@ main {
   transition: var(--transition-1);
 }
 
-.blog-post-item > a:hover .blog-item-title { color: coral; }
+.blog-post-item > a:hover .blog-item-title { color: var(--orange-yellow-crayola); }
 
 .blog-text {
   color: var(--light-gray);

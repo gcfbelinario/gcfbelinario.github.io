@@ -5,17 +5,17 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>vCard - Personal Portfolio</title>
+  <title>GC Belinario</title>
 
   <!--
     - favicon
   -->
-  <link rel="shortcut icon" href="./assets/images/logo.ico" type="image/x-icon">
+  <link rel="shortcut icon" href="./assets/images/gcfb.png" type="image/x-icon">
 
   <!--
     - custom css link
   -->
-  <link rel="stylesheet" href="./assets/css/style0.css">
+  <link rel="stylesheet" href="./assets/css/style.css">
 
   <!--
     - google font link
@@ -23,6 +23,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free/css/all.min.css">
 </head>
 
 <body>
@@ -42,13 +43,15 @@
       <div class="sidebar-info">
 
         <figure class="avatar-box">
-          <img src="./assets/images/my-avatar.png" alt="Richard hanrick" width="80">
+          <img src="./assets/images/gcfb.png" alt="Gene Carlo Belinario" width="80">
         </figure>
 
         <div class="info-content">
-          <h1 class="name" title="Richard hanrick">Richard hanrick</h1>
+          <h1 class="name" title="Gene Belinario"> GENE BELINARIO </h1>
 
-          <p class="title">Web developer</p>
+          <div class="separator"></div>
+
+          <p class="title"> <i> I am a physicist  based in the Philippines, perturbing local spacetime </i> XD </p>
         </div>
 
         <button class="info_more-btn" data-sidebar-btn>
@@ -63,60 +66,103 @@
 
         <div class="separator"></div>
 
-        <ul class="contacts-list">
+        <ul>
 
           <li class="contact-item">
 
-            <div class="icon-box">
-              <ion-icon name="mail-outline"></ion-icon>
+            <div style="width: 20px;">
+              <center>
+                <ion-icon name="mail" style="color:gray"></ion-icon>
+              </center>
             </div>
 
             <div class="contact-info">
-              <p class="contact-title">Email</p>
+              <a href="mailto:gcfbelinario@gmail.com" class="contact-link"> Email </a>
+            </div>
 
-              <a href="mailto:richard@example.com" class="contact-link">richard@example.com</a>
+          </li>
+          
+          <li class="contact-item">
+
+            <div style="width: 20px;">
+              <center>
+                <i class="fa-brands fa-linkedin" style="color: gray;"></i>
+              </center>
+            </div>
+
+            <div class="contact-info">
+              <a href="https://www.linkedin.com/in/gcfbelinario/" class="contact-link"> LinkedIn </a>
             </div>
 
           </li>
 
           <li class="contact-item">
 
-            <div class="icon-box">
-              <ion-icon name="phone-portrait-outline"></ion-icon>
+            <div style="width: 20px;">
+              <center>
+                <i class="fa-brands fa-github" style="color: gray;"></i>
+              </center>
             </div>
 
             <div class="contact-info">
-              <p class="contact-title">Phone</p>
-
-              <a href="tel:+12133522795" class="contact-link">+1 (213) 352-2795</a>
+              <a href="https://github.com/gcfbelinario" class="contact-link"> GitHub </a>
             </div>
 
           </li>
 
           <li class="contact-item">
 
-            <div class="icon-box">
-              <ion-icon name="calendar-outline"></ion-icon>
+            <div style="width: 20px;">
+              <center>
+                <i class="fa-brands fa-orcid" style="color: gray;"></i>
+              </center>
             </div>
 
             <div class="contact-info">
-              <p class="contact-title">Birthday</p>
+              <a href="https://orcid.org/0009-0003-5130-6499" class="contact-link"> ORCID </a>
+            </div>
+            
 
-              <time datetime="1982-06-23">June 23, 1982</time>
+          </li>
+
+          <li class="contact-item">
+
+            <div style="width: 20px;">
+              <center>
+                <i class="fa-brands fa-google-scholar" style="color:gray"></i>
+              </center>
+            </div>
+
+            <div class="contact-info">
+              <a href="https://scholar.google.com/citations?user=hByRY3IAAAAJ\&hl=en" class="contact-link"> Google Scholar </a>
             </div>
 
           </li>
 
           <li class="contact-item">
 
-            <div class="icon-box">
-              <ion-icon name="location-outline"></ion-icon>
+            <div style="width: 20px;">
+              <center>
+                <i class="fa-brands fa-researchgate" style="color:gray"></i>
+              </center>
             </div>
 
             <div class="contact-info">
-              <p class="contact-title">Location</p>
+              <a href="https://www.researchgate.net/profile/Gene-Carlo-Belinario?ev=hdr_xprf" class="contact-link"> ResearchGate </a>
+            </div>
 
-              <address>Sacramento, California, USA</address>
+          </li>
+
+          <li class="contact-item">
+
+            <div style="width: 20px;">
+              <center>
+              <img src="./assets/images/inspire-hep.png" alt="Gene Carlo Belinario" width="14">
+              </center>
+            </div>
+
+            <div class="contact-info">
+              <a href="https://inspirehep.net/authors/2876991" class="contact-link"> iNSPIRE-HEP </a>
             </div>
 
           </li>
@@ -125,29 +171,13 @@
 
         <div class="separator"></div>
 
-        <ul class="social-list">
-
-          <li class="social-item">
-            <a href="#" class="social-link">
-              <ion-icon name="logo-facebook"></ion-icon>
-            </a>
-          </li>
-
-          <li class="social-item">
-            <a href="#" class="social-link">
-              <ion-icon name="logo-twitter"></ion-icon>
-            </a>
-          </li>
-
-          <li class="social-item">
-            <a href="#" class="social-link">
-              <ion-icon name="logo-instagram"></ion-icon>
-            </a>
-          </li>
-
-        </ul>
-
       </div>
+
+      <p>
+        <center style="font-size: small; color: white;">
+        Theme by - <a href="https://github.com/codewithsadee">@codewithsadee</a>
+        </center>
+      </p>
 
     </aside>
 
@@ -170,19 +200,19 @@
         <ul class="navbar-list">
 
           <li class="navbar-item">
-            <button class="navbar-link  active" data-nav-link>About</button>
+            <button class="navbar-link  active" data-nav-link>Home</button>
           </li>
 
           <li class="navbar-item">
-            <button class="navbar-link" data-nav-link>Resume</button>
+            <button class="navbar-link" data-nav-link>Bio</button>
           </li>
 
           <li class="navbar-item">
-            <button class="navbar-link" data-nav-link>Portfolio</button>
+            <button class="navbar-link" data-nav-link>CV</button>
           </li>
 
           <li class="navbar-item">
-            <button class="navbar-link" data-nav-link>Blog</button>
+            <button class="navbar-link" data-nav-link>Teaching</button>
           </li>
 
           <li class="navbar-item">
@@ -204,23 +234,94 @@
       <article class="about  active" data-page="about">
 
         <header>
-          <h2 class="h2 article-title">About me</h2>
+          <h2 class="h2 article-title" style="font-family: monospace; color: khaki">HELLO WORLD!</h2>
         </header>
 
         <section class="about-text">
           <p>
-            I'm Creative Director and UI/UX Designer from Sydney, Australia, working in web development and print media.
-            I enjoy
-            turning complex problems into simple, beautiful and intuitive designs.
+          <b style="font-weight:1000;">Welcome to my website!</b>   
           </p>
 
           <p>
-            My job is to build your website so that it is functional and user-friendly but at the same time attractive.
-            Moreover, I
-            add personal touch to your product and make sure that is eye-catching and easy to use. My aim is to bring
-            across your
-            message and identity in the most creative way. I created web design for many famous brand companies.
+            In this space, I share my passion for science - most especially in <a href="https://en.wikipedia.org/wiki/Physics">physics</a> - through the research, projects, and initiatives I pursue. I draw on my training in <a href="https://en.wikipedia.org/wiki/Computational_physics">computational physics</a> to explore interesting problems in <a href="https://en.wikipedia.org/wiki/Astrophysics">astrophysics</a>, particularly in <a href="https://en.wikipedia.org/wiki/Gravitational_wave">gravitational waves</a> and <a href="https://en.wikipedia.org/wiki/Gravitational_lens">gravitational lensing</a> phenomena and their implications on our <a href="https://en.wikipedia.org/wiki/Cosmology">cosmic history</a>.
           </p>
+
+          <p>
+            Feel free to browse and connect with me if you find something interesting!
+          </p>
+        </section>
+
+
+        <!--
+          - service
+        -->
+
+        <section class="service">
+
+          <h3 class="h3 service-title" style="color:khaki; font-family:;">(੭˃ᴗ˂)੭ HIGHLIGHTS</h3>
+
+          <ul class="service-list">
+
+            <li class="service-item">
+
+              <div class="service-content-box">
+
+                <h4 class="h4 service-item-title">cosmo_learn is online!</h4>
+
+                <div class="separator"></div>
+
+                <p class="service-item-text">
+                  <a><span style="font-family: 'Courier New', Courier, monospace; display: contents;">cosmo_learn</span></a> is a toolkit made with Python for machine learning in cosmology using different methods and simulations based on actual data. Developed by <a href="https://scholar.google.com/citations?user=qoDKcvQAAAAJ&hl=en/">Reggie</a>, <a href="https://scholar.google.com/citations?user=At_NBUkAAAAJ&hl=en">Daniela</a>, <a href="https://scholar.google.com/citations?user=BRXAWV4AAAAJ&hl=en">Jackson</a>, <a href="https://scholar.google.com/citations?user=leUjdFUAAAAJ&hl=en">Víctor</a>, <a href="https://scholar.google.com/citations?user=hByRY3IAAAAJ">Gene</a>, and <a href="https://scholar.google.com/citations?user=GawtT7YAAAAJ&hl=en">Reina</a>.
+                </p>
+
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Padayon!</h4>
+
+                <div class="separator"></div>
+
+                <p class="service-item-text">
+                  I have finally completed my Master of Science in Physics (2025) and Bachelor of Science in Applied Physics (2023) at the <a href="https://nip.upd.edu.ph/">National Institute of Physics</a>, <a href="https://upd.edu.ph/">University of the Philippines Diliman</a>.
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">2025 APCTP Workshop on Gravitational Waves</h4>
+
+                <div class="separator"></div>
+
+                <p class="service-item-text">
+                  Institute of Physics, Academica Sinica, Taipei, Taiwan, April 20-25, 2025.
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title"> 2024 ICTP Summer School on Cosmology</h4>
+
+                <div class="separator"></div>
+
+                <p class="service-item-text">
+                  International Center for Theoretical Physics, Trieste, Italy,
+                </p>
+              </div>
+
+            </li>
+
+          </ul>
+
         </section>
 
         <section class="blog-posts">
@@ -236,158 +337,11 @@
 
                 <div class="blog-content">
 
-                  <div class="blog-meta">
-                    <p class="blog-category">Design</p>
-
-                    <span class="dot"></span>
-
-                    <time datetime="2022-02-23">Fab 23, 2022</time>
-                  </div>
-
-                  <h3 class="h3 blog-item-title">Design conferences in 2022</h3>
+                  <h3 class="h3 blog-item-title">cosmo_learn is online!</h3>
 
                   <p class="blog-text">
-                    Veritatis et quasi architecto beatae vitae dicta sunt, explicabo.
-                  </p>
-
-                </div>
-
-              </a>
-            </li>
-
-            <li class="blog-post-item">
-              <a href="#">
-
-                <figure class="blog-banner-box">
-                  <img src="./assets/images/blog-2.jpg" alt="Best fonts every designer" loading="lazy">
-                </figure>
-
-                <div class="blog-content">
-
-                  <div class="blog-meta">
-                    <p class="blog-category">Design</p>
-
-                    <span class="dot"></span>
-
-                    <time datetime="2022-02-23">Fab 23, 2022</time>
-                  </div>
-
-                  <h3 class="h3 blog-item-title">Best fonts every designer</h3>
-
-                  <p class="blog-text">
-                    Sed ut perspiciatis, nam libero tempore, cum soluta nobis est eligendi.
-                  </p>
-
-                </div>
-
-              </a>
-            </li>
-
-            <li class="blog-post-item">
-              <a href="#">
-
-                <figure class="blog-banner-box">
-                  <img src="./assets/images/blog-3.jpg" alt="Design digest #80" loading="lazy">
-                </figure>
-
-                <div class="blog-content">
-
-                  <div class="blog-meta">
-                    <p class="blog-category">Design</p>
-
-                    <span class="dot"></span>
-
-                    <time datetime="2022-02-23">Fab 23, 2022</time>
-                  </div>
-
-                  <h3 class="h3 blog-item-title">Design digest #80</h3>
-
-                  <p class="blog-text">
-                    Excepteur sint occaecat cupidatat no proident, quis nostrum exercitationem ullam corporis suscipit.
-                  </p>
-
-                </div>
-
-              </a>
-            </li>
-
-            <li class="blog-post-item">
-              <a href="#">
-
-                <figure class="blog-banner-box">
-                  <img src="./assets/images/blog-4.jpg" alt="UI interactions of the week" loading="lazy">
-                </figure>
-
-                <div class="blog-content">
-
-                  <div class="blog-meta">
-                    <p class="blog-category">Design</p>
-
-                    <span class="dot"></span>
-
-                    <time datetime="2022-02-23">Fab 23, 2022</time>
-                  </div>
-
-                  <h3 class="h3 blog-item-title">UI interactions of the week</h3>
-
-                  <p class="blog-text">
-                    Enim ad minim veniam, consectetur adipiscing elit, quis nostrud exercitation ullamco laboris nisi.
-                  </p>
-
-                </div>
-
-              </a>
-            </li>
-
-            <li class="blog-post-item">
-              <a href="#">
-
-                <figure class="blog-banner-box">
-                  <img src="./assets/images/blog-5.jpg" alt="The forgotten art of spacing" loading="lazy">
-                </figure>
-
-                <div class="blog-content">
-
-                  <div class="blog-meta">
-                    <p class="blog-category">Design</p>
-
-                    <span class="dot"></span>
-
-                    <time datetime="2022-02-23">Fab 23, 2022</time>
-                  </div>
-
-                  <h3 class="h3 blog-item-title">The forgotten art of spacing</h3>
-
-                  <p class="blog-text">
-                    Maxime placeat, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                  </p>
-
-                </div>
-
-              </a>
-            </li>
-
-            <li class="blog-post-item">
-              <a href="#">
-
-                <figure class="blog-banner-box">
-                  <img src="./assets/images/blog-6.jpg" alt="Design digest #79" loading="lazy">
-                </figure>
-
-                <div class="blog-content">
-
-                  <div class="blog-meta">
-                    <p class="blog-category">Design</p>
-
-                    <span class="dot"></span>
-
-                    <time datetime="2022-02-23">Fab 23, 2022</time>
-                  </div>
-
-                  <h3 class="h3 blog-item-title">Design digest #79</h3>
-
-                  <p class="blog-text">
-                    Optio cumque nihil impdit uo minus quod maxime placeat, velit esse cillum.
+                    <a><span style="font-family: 'Courier New', Courier, monospace; display: contents;">cosmo_learn</span></a> is a toolkit made with Python for machine learning in cosmology using different methods and simulations based on actual data. Developed by <a href="https://scholar.google.com/citations?user=qoDKcvQAAAAJ&hl=en/">Reggie</a>, <a href="https://scholar.google.com/citations?user=At_NBUkAAAAJ&hl=en">Daniela</a>, <a href="https://scholar.google.com/citations?user=BRXAWV4AAAAJ&hl=en">Jackson</a>, <a href="https://scholar.google.com/citations?user=leUjdFUAAAAJ&hl=en">Víctor</a>, <a href="https://scholar.google.com/citations?user=hByRY3IAAAAJ">Gene</a>, and <a href="https://scholar.google.com/citations?user=GawtT7YAAAAJ&hl=en">Reina</a>.
+                </p>
                   </p>
 
                 </div>
@@ -400,290 +354,7 @@
         </section>
 
 
-        <!--
-          - service
-        -->
-
-        <section class="service">
-
-          <h3 class="h3 service-title">What i'm doing</h3>
-
-          <ul class="service-list">
-
-            <li class="service-item">
-
-              <div class="service-icon-box">
-                <img src="./assets/images/icon-design.svg
-                " alt="design icon" width="40">
-              </div>
-
-              <div class="service-content-box">
-                <h4 class="h4 service-item-title">Web design</h4>
-
-                <p class="service-item-text">
-                  The most modern and high-quality design made at a professional level.
-                </p>
-              </div>
-
-            </li>
-
-            <li class="service-item">
-
-              <div class="service-icon-box">
-                <img src="./assets/images/icon-dev.svg" alt="Web development icon" width="40">
-              </div>
-
-              <div class="service-content-box">
-                <h4 class="h4 service-item-title">Web development</h4>
-
-                <p class="service-item-text">
-                  High-quality development of sites at the professional level.
-                </p>
-              </div>
-
-            </li>
-
-            <li class="service-item">
-
-              <div class="service-icon-box">
-                <img src="./assets/images/icon-app.svg" alt="mobile app icon" width="40">
-              </div>
-
-              <div class="service-content-box">
-                <h4 class="h4 service-item-title">Mobile apps</h4>
-
-                <p class="service-item-text">
-                  Professional development of applications for iOS and Android.
-                </p>
-              </div>
-
-            </li>
-
-            <li class="service-item">
-
-              <div class="service-icon-box">
-                <img src="./assets/images/icon-photo.svg" alt="camera icon" width="40">
-              </div>
-
-              <div class="service-content-box">
-                <h4 class="h4 service-item-title">Photography</h4>
-
-                <p class="service-item-text">
-                  I make high-quality photos of any category at a professional level.
-                </p>
-              </div>
-
-            </li>
-
-          </ul>
-
-        </section>
-
-
-        <!--
-          - testimonials
-        -->
-
-        <section class="testimonials">
-
-          <h3 class="h3 testimonials-title">Testimonials</h3>
-
-          <ul class="testimonials-list has-scrollbar">
-
-            <li class="testimonials-item">
-              <div class="content-card" data-testimonials-item>
-
-                <figure class="testimonials-avatar-box">
-                  <img src="./assets/images/avatar-1.png" alt="Daniel lewis" width="60" data-testimonials-avatar>
-                </figure>
-
-                <h4 class="h4 testimonials-item-title" data-testimonials-title>Daniel lewis</h4>
-
-                <div class="testimonials-text" data-testimonials-text>
-                  <p>
-                    Richard was hired to create a corporate identity. We were very pleased with the work done. She has a
-                    lot of experience
-                    and is very concerned about the needs of client. Lorem ipsum dolor sit amet, ullamcous cididt
-                    consectetur adipiscing
-                    elit, seds do et eiusmod tempor incididunt ut laborels dolore magnarels alia.
-                  </p>
-                </div>
-
-              </div>
-            </li>
-
-            <li class="testimonials-item">
-              <div class="content-card" data-testimonials-item>
-
-                <figure class="testimonials-avatar-box">
-                  <img src="./assets/images/avatar-2.png" alt="Jessica miller" width="60" data-testimonials-avatar>
-                </figure>
-
-                <h4 class="h4 testimonials-item-title" data-testimonials-title>Jessica miller</h4>
-
-                <div class="testimonials-text" data-testimonials-text>
-                  <p>
-                    Richard was hired to create a corporate identity. We were very pleased with the work done. She has a
-                    lot of experience
-                    and is very concerned about the needs of client. Lorem ipsum dolor sit amet, ullamcous cididt
-                    consectetur adipiscing
-                    elit, seds do et eiusmod tempor incididunt ut laborels dolore magnarels alia.
-                  </p>
-                </div>
-
-              </div>
-            </li>
-
-            <li class="testimonials-item">
-              <div class="content-card" data-testimonials-item>
-
-                <figure class="testimonials-avatar-box">
-                  <img src="./assets/images/avatar-3.png" alt="Emily evans" width="60" data-testimonials-avatar>
-                </figure>
-
-                <h4 class="h4 testimonials-item-title" data-testimonials-title>Emily evans</h4>
-
-                <div class="testimonials-text" data-testimonials-text>
-                  <p>
-                    Richard was hired to create a corporate identity. We were very pleased with the work done. She has a
-                    lot of experience
-                    and is very concerned about the needs of client. Lorem ipsum dolor sit amet, ullamcous cididt
-                    consectetur adipiscing
-                    elit, seds do et eiusmod tempor incididunt ut laborels dolore magnarels alia.
-                  </p>
-                </div>
-
-              </div>
-            </li>
-
-            <li class="testimonials-item">
-              <div class="content-card" data-testimonials-item>
-
-                <figure class="testimonials-avatar-box">
-                  <img src="./assets/images/avatar-4.png" alt="Henry william" width="60" data-testimonials-avatar>
-                </figure>
-
-                <h4 class="h4 testimonials-item-title" data-testimonials-title>Henry william</h4>
-
-                <div class="testimonials-text" data-testimonials-text>
-                  <p>
-                    Richard was hired to create a corporate identity. We were very pleased with the work done. She has a
-                    lot of experience
-                    and is very concerned about the needs of client. Lorem ipsum dolor sit amet, ullamcous cididt
-                    consectetur adipiscing
-                    elit, seds do et eiusmod tempor incididunt ut laborels dolore magnarels alia.
-                  </p>
-                </div>
-
-              </div>
-            </li>
-
-          </ul>
-
-        </section>
-
-
-        <!--
-          - testimonials modal
-        -->
-
-        <div class="modal-container" data-modal-container>
-
-          <div class="overlay" data-overlay></div>
-
-          <section class="testimonials-modal">
-
-            <button class="modal-close-btn" data-modal-close-btn>
-              <ion-icon name="close-outline"></ion-icon>
-            </button>
-
-            <div class="modal-img-wrapper">
-              <figure class="modal-avatar-box">
-                <img src="./assets/images/avatar-1.png" alt="Daniel lewis" width="80" data-modal-img>
-              </figure>
-
-              <img src="./assets/images/icon-quote.svg" alt="quote icon">
-            </div>
-
-            <div class="modal-content">
-
-              <h4 class="h3 modal-title" data-modal-title>Daniel lewis</h4>
-
-              <time datetime="2021-06-14">14 June, 2021</time>
-
-              <div data-modal-text>
-                <p>
-                  Richard was hired to create a corporate identity. We were very pleased with the work done. She has a
-                  lot of experience
-                  and is very concerned about the needs of client. Lorem ipsum dolor sit amet, ullamcous cididt
-                  consectetur adipiscing
-                  elit, seds do et eiusmod tempor incididunt ut laborels dolore magnarels alia.
-                </p>
-              </div>
-
-            </div>
-
-          </section>
-
-        </div>
-
-
-        <!--
-          - clients
-        -->
-
-        <section class="clients">
-
-          <h3 class="h3 clients-title">Clients</h3>
-
-          <ul class="clients-list has-scrollbar">
-
-            <li class="clients-item">
-              <a href="#">
-                <img src="./assets/images/logo-1-color.png" alt="client logo">
-              </a>
-            </li>
-
-            <li class="clients-item">
-              <a href="#">
-                <img src="./assets/images/logo-2-color.png" alt="client logo">
-              </a>
-            </li>
-
-            <li class="clients-item">
-              <a href="#">
-                <img src="./assets/images/logo-3-color.png" alt="client logo">
-              </a>
-            </li>
-
-            <li class="clients-item">
-              <a href="#">
-                <img src="./assets/images/logo-4-color.png" alt="client logo">
-              </a>
-            </li>
-
-            <li class="clients-item">
-              <a href="#">
-                <img src="./assets/images/logo-5-color.png" alt="client logo">
-              </a>
-            </li>
-
-            <li class="clients-item">
-              <a href="#">
-                <img src="./assets/images/logo-6-color.png" alt="client logo">
-              </a>
-            </li>
-
-          </ul>
-
-        </section>
-
-      </article>
-
-
-
-
-
+        
       <!--
         - #RESUME
       -->
@@ -735,7 +406,7 @@
 
             <li class="timeline-item">
 
-              <h4 class="h4 timeline-item-title">High school of art and design</h4>
+              <h4 class="h4 timeline-item-title" style="font-family: 'Courier New', Courier, monospace;">High school of art and design</h4>
 
               <span>2002 — 2004</span>
 
@@ -1291,7 +962,7 @@
                   <h3 class="h3 blog-item-title">Design digest #79</h3>
 
                   <p class="blog-text">
-                    Optio cumque nihil impdit uo minus quod maxime placeat, velit esse cillum.
+                    Optio cumque nihil impedit uo minus quod maxime placeat, velit esse cillum.
                   </p>
 
                 </div>
