@@ -135,7 +135,7 @@ for (let i = 0; i < formInputs.length; i++) {
 }
 
 
-
+/*
 // page navigation variables
 const navigationLinks = document.querySelectorAll("[data-nav-link]");
 const pages = document.querySelectorAll("[data-page]");
@@ -157,4 +157,32 @@ for (let i = 0; i < navigationLinks.length; i++) {
     }
 
   });
-} 
+} */
+
+// page navigation variables
+const navigationLinks = document.querySelectorAll("[data-nav-link]");
+const pages = document.querySelectorAll("[data-page]");
+
+// add event to all nav link
+navigationLinks.forEach(link => {
+  link.addEventListener("click", function () {
+    const targetPage = this.dataset.target; // use data-target instead of innerHTML
+
+    // show/hide pages
+    pages.forEach(page => {
+      if (page.dataset.page === targetPage) {
+        page.classList.add("active");
+      } else {
+        page.classList.remove("active");
+      }
+    });
+
+    // update navbar link active state
+    navigationLinks.forEach(btn => btn.classList.remove("active"));
+    this.classList.add("active");
+
+    // scroll to top
+    window.scrollTo(0, 0);
+  });
+});
+
