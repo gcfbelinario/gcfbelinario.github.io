@@ -190,7 +190,6 @@ body { background: var(--smoky-black); }
 }
 
 .slides {
-  position: relative;
   display: flex;
   width: max-content;
   height: 100%;
@@ -200,7 +199,7 @@ body { background: var(--smoky-black); }
 .slides img {
   width: 600px;
   height: 400px;
-  object-fit: contain;
+  object-fit: cover;
 }
 
 @keyframes slide {
@@ -227,7 +226,7 @@ body { background: var(--smoky-black); }
 }
 
 .slide img {
-  width: 6000px;
+  width: 600px;
   height: auto;
   object-fit: cover;
   display: block;

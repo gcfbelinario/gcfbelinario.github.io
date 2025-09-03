@@ -183,14 +183,13 @@ body { background: var(--smoky-black); }
 .slider {
   position: relative;
   width: 600px;
-  /*height: 400px;*/
+  height: 400px;
   overflow: hidden;
   border-radius: 12px;
   box-shadow: 0 4px 10px rgba(0,0,0,0.2);
 }
 
 .slides {
-  position: relative;
   display: flex;
   width: max-content;
   height: 100%;
@@ -200,7 +199,7 @@ body { background: var(--smoky-black); }
 .slides img {
   width: 600px;
   height: 400px;
-  object-fit: contain;
+  object-fit: cover;
 }
 
 @keyframes slide {
@@ -219,30 +218,6 @@ body { background: var(--smoky-black); }
   display: flex;
   justify-content: center;
   min-height: 100vh;
-}
-
-.slide {
-  position: relative;   /* so caption can be positioned inside */
-  flex-shrink: 0;
-}
-
-.slide img {
-  width: 6000px;
-  height: auto;
-  object-fit: cover;
-  display: block;
-}
-
-.caption {
-  position: absolute;
-  bottom: 0;                /* stick to bottom of image */
-  left: 0;
-  width: 100%;
-  background: rgba(0,0,0,0.6); /* semi-transparent black background */
-  color: #fff;
-  text-align: center;
-  padding: 10px;
-  font-size: 16px;
 }
 
 
