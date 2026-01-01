@@ -135,6 +135,8 @@ blockquote {
   }
 }
 
+
+
 // Checklist
 
 ul.task-list {
@@ -412,10 +414,17 @@ ul.task-list input[type="checkbox"] {
 // Social (bottom)
 
 .social {
-  text-align: center;
+  position: absolute;   /* fix position relative to nearest positioned ancestor */
+  bottom: 50px;            /* stick to bottom */
+  left: 50%;            /* start at horizontal center */
+  transform: translateX(-50%); /* truly center the element */
+  text-align: center;   /* center text/content inside */
+  width: auto;          /* or set a fixed width if needed */
+  padding: 10px 20px;   /* optional spacing */
+  z-index: 1000;        /* make sure it's above other content */
 
   .contact-icons {
-    font-size: 4rem;
+    font-size: 2rem;
 
     a {
       img {
