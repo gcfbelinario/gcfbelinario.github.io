@@ -11,17 +11,10 @@ ninja.data = [{
     },
   },{id: "nav-research",
           title: "RESEARCH",
-          description: "Edit the `_data/repositories.yml` and change the `github_users` and `github_repos` lists to include your own GitHub profile and repositories.",
+          description: "",
           section: "Navigation",
           handler: () => {
             window.location.href = "/research/";
-          },
-        },{id: "nav-projects",
-          title: "PROJECTS",
-          description: "A growing collection of your cool projects.",
-          section: "Navigation",
-          handler: () => {
-            window.location.href = "/projects/";
           },
         },{id: "nav-cv",
           title: "CV",
