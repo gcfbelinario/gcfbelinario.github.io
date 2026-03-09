@@ -1,8 +1,8 @@
 metadata:
-  last_updated: '2026-02-16'
+  last_updated: '2026-03-09'
 papers:
   hByRY3IAAAAJ:2osOgNQ5qMEC:
-    citations: 196
+    citations: 275
     title: 'The CosmoVerse White Paper: Addressing observational tensions in cosmology with systematics and fundamental physics'
     year: '2025'
   hByRY3IAAAAJ:9yKSN-GCB0IC:
@@ -14,7 +14,7 @@ papers:
     title: Constraining cosmic dark energy using bright standard sirens
     year: '2024'
   hByRY3IAAAAJ:qjMakFHDy7sC:
-    citations: 0
+    citations: 1
     title: 'Cosmo-Learn: code for learning cosmology using different methods and mock data'
     year: '2025'
   hByRY3IAAAAJ:u-x6o8ySG0sC:
