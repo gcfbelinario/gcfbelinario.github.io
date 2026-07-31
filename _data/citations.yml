@@ -1,8 +1,8 @@
 metadata:
-  last_updated: '2026-07-03'
+  last_updated: '2026-07-31'
 papers:
   hByRY3IAAAAJ:2osOgNQ5qMEC:
-    citations: 426
+    citations: 478
     title: 'The CosmoVerse White Paper: Addressing observational tensions in cosmology with systematics and fundamental physics'
     year: '2025'
   hByRY3IAAAAJ:9yKSN-GCB0IC:
@@ -16,7 +16,7 @@ papers:
   hByRY3IAAAAJ:qjMakFHDy7sC:
     citations: 1
     title: 'Cosmo-Learn: code for learning cosmology using different methods and mock data'
-    year: '2025'
+    year: '2026'
   hByRY3IAAAAJ:u-x6o8ySG0sC:
     citations: 0
     title: Gravitational lensing signatures in gravitational waves from binary black hole mergers
