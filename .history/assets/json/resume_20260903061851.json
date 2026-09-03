@@ -25,7 +25,7 @@
   "interests": [
     {
       "name": "Astrophysics, Cosmology, Computational Physics",
-      "text": "Gravitational Lensing, Gravitational Waves, Dark Energy, Structure Formation, Inflation, Machine Learning"
+      "text": "Gravitational Lensing, Gravitational Waves, Galaxy Clusters, Dark Energy, Data Analysis, Machine Learning"
     }
   ],
   "education": [
@@ -96,6 +96,14 @@
       "position": "Postdoctoral Fellow",
       "affiliation": "Max Planck Institute for Gravitational Physics",
       "location":"Hannover, Germany",
+      "reference": ""
+    },
+    {
+      "name": "Tomomi Sunayama, Ph.D.",
+      "icon": "",
+      "position": "Research Fellow",
+      "affiliation": "Academia Sinica Institute of Astronomy and Astrophysics",
+      "location":"Taipei, Taiwan",
       "reference": ""
     },
     {

@@ -10,11 +10,35 @@ nav_order: 1
 <img src="{{ '/assets/img/rm.png' | relative_url }}" alt="Research banner" style="width: 100%; height: auto;">
 
 <div style="text-align: justify">
-
 <p>
-I pursue topics in <strong>astrophysics</strong>, <strong>cosmology</strong>, and <strong>computational physics</strong>. In particular, I investigate the dynamics of gravitational waves within the framework of gravitational lensing and how it can reveal insights on the expansion of the universe. Gravitational waves are among the multi-messenger channels we have that can potentially probe the nature of dark energy, characterize large-scale structure formation, and uncover the fundamental physics during the inflationary epoch. 
+I pursue research at the intersection of <strong>astrophysics</strong>, <strong>cosmology</strong>, and <strong>computational physics</strong>. My work broadly spans on gravitational waves, gravitational lensing, galaxy clusters and dark energy. Alongside these endeavoers, I am also active in the development and application of statistical methods, computational techniques, and machine learning to extract insights from observational and simulation data to ultimately understand the working principles and the fate of the Universe. 
 </p>
-
 </div>
 
+<br>
+
+<div style="text-align: justify">
+<h2> <strong> Physics with Gravitational Waves </strong> </h2>
+<p>
+The direct detection of gravitational waves (GW) has opened a novel window to probe various astrophysics and the cosmology of the Universe. <strong> Lensing of GWs </strong> can reveal information about the distribution and structure of the intervening matter, potentially providing a means to probe dark matter and the large-scale structures. On the other hand, GWs can be <strong> standard sirens </strong>, which independently measures cosmic distances and provide constraints on fundamental parameters of cosmic expansion. Together, these applications establish GWs as a powerful tool to study the matter content and the evolution of the Universe.
+</p>
+</div>
+
+<br>
+
+<div style="text-align: justify">
+<h2> <strong> Cosmology with Galaxy Clusters </strong> </h2>
+<p>
+Galaxy clusters are among the largest gravitationally bound structures in the Universe and provide powerful probes of dark matter, large-scale structures, and cosmology. Using cosmological simulations, the evolution and spatial clustering of galaxy clusters may be studied in order to shed light on the gowth of dark matter halos and the evolution of the galaxies they contain.
+</p>
+</div>
+
+<br>
+
+<div style="text-align: justify">
+<h2> <strong> Data Analysis and Machine Learning Applications </strong> </h2>
+<p>
+The scale and complexity of modern observation as simulation data make computational and data-driven methods increasingly more demanding. We can resort to machine learning in order to make more efficient means of extracting physical insights from big data.
+</p>
+</div>
 
