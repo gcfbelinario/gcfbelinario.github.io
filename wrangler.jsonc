@@ -1,0 +1,17 @@
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "gcfbelinario-github-io",
+  "compatibility_date": "2026-09-16",
+
+  "assets": {
+    "directory": "./_site"
+  },
+
+  "observability": {
+    "enabled": true
+  },
+
+  "build": {
+    "command": "bundle exec jekyll build"
+  }
+}
